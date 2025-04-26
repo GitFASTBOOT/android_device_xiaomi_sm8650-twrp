@@ -14,19 +14,13 @@
 # limitations under the License.
 #
 
-# Inherit from device.mk configuration
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+LOCAL_PATH := $(call my-dir)
 
-# dependencies
-PRODUCT_PACKAGES += shennong_blobs
-
-# Release name
-PRODUCT_RELEASE_NAME := shennong
-
-## Device identifier
-PRODUCT_DEVICE := shennong
-PRODUCT_NAME := twrp_shennong
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := shennong
-PRODUCT_MANUFACTURER := Xiaomi
-
+# focaltech_ts_fw_zorn.bin
+include $(CLEAR_VARS)
+LOCAL_MODULE := zorn_blobs
+LOCAL_SRC_FILES := focaltech_ts_fw_zorn.bin
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_RECOVERY_OUT)/vendor/firmware
+LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)

@@ -17,6 +17,9 @@
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
+# dependencies
+PRODUCT_PACKAGES += chenfeng_blobs
+
 # Release name
 PRODUCT_RELEASE_NAME := chenfeng
 

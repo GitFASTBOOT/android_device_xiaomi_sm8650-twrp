@@ -14,19 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit from device.mk configuration
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+LOCAL_PATH := $(call my-dir)
 
-# dependencies
-PRODUCT_PACKAGES += shennong_blobs
-
-# Release name
-PRODUCT_RELEASE_NAME := shennong
-
-## Device identifier
-PRODUCT_DEVICE := shennong
-PRODUCT_NAME := twrp_shennong
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := shennong
-PRODUCT_MANUFACTURER := Xiaomi
-
+include $(call all-subdir-makefiles)
