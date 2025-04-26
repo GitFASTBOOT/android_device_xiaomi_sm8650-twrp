@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/sm8650
-
 # Configure base.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
