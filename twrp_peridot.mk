@@ -14,8 +14,16 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+# Inherit from device.mk configuration
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
-ifeq ($(filter $(TARGET_DEVICE), chengfeng zorn ruyi peridot houji shennong aurora),$(TARGET_DEVICE))
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-endif
+# Release name
+PRODUCT_RELEASE_NAME := peridot
+
+## Device identifier
+PRODUCT_DEVICE := peridot
+PRODUCT_NAME := twrp_peridot
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := peridot
+PRODUCT_MANUFACTURER := Xiaomi
+

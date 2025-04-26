@@ -18,11 +18,17 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_chenfeng.mk \
     $(LOCAL_DIR)/twrp_houji.mk \
     $(LOCAL_DIR)/twrp_shennong.mk \
-    $(LOCAL_DIR)/twrp_aurora.mk
+    $(LOCAL_DIR)/twrp_aurora.mk \
+    $(LOCAL_DIR)/twrp_zorn.mk \
+    $(LOCAL_DIR)/twrp_peridot.mk \
+    $(LOCAL_DIR)/twrp_ruyi.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_chenfeng-eng \
     twrp_houji-eng \
     twrp_shennong-eng \
-    twrp_aurora-eng
-    
+    twrp_aurora-eng \
+    twrp_zorn-eng \
+    twrp_peridot-eng \
+    twrp_ruyi-eng
+

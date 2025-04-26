@@ -14,8 +14,16 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
+# Inherit from device.mk configuration
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
-ifeq ($(filter $(TARGET_DEVICE), chengfeng zorn ruyi peridot houji shennong aurora),$(TARGET_DEVICE))
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
-endif
+# Release name
+PRODUCT_RELEASE_NAME := zorn
+
+## Device identifier
+PRODUCT_DEVICE := zorn
+PRODUCT_NAME := twrp_zorn
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := zorn
+PRODUCT_MANUFACTURER := Xiaomi
+
