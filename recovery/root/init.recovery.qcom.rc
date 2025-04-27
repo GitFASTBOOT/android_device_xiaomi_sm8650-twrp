@@ -37,7 +37,9 @@ on early-init
     insmod /vendor/lib/modules/goodix_cap.ko
     insmod /vendor/lib/modules/goodix_core.ko
     insmod /vendor/lib/modules/synaptics_tcm2.ko
-
+    insmod /vendor/lib/modules/speed_touch.ko
+    insmod /vendor/lib/modules/xiaomi_touch.ko
+    
 on init
     write /sys/class/backlight/panel0-backlight/brightness 200
     setprop sys.usb.configfs 1
