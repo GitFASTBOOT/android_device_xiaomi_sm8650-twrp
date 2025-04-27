@@ -20,7 +20,7 @@ DEVICE_PATH := device/xiaomi/sm8650
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # dependencies
-PRODUCT_PACKAGES += peridot_blobs
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/xiaomi/sm8650/prebuilts/peridot,recovery/root/vendor/firmware)
 
 # Release name
 PRODUCT_RELEASE_NAME := peridot
