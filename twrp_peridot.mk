@@ -26,9 +26,9 @@ PRODUCT_PACKAGES += peridot_blobs
 PRODUCT_RELEASE_NAME := peridot
 
 ## Device identifier
-PRODUCT_DEVICE := peridot
+PRODUCT_DEVICE := sm8650
 PRODUCT_NAME := twrp_peridot
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := peridot
+PRODUCT_MODEL := sm8650
 PRODUCT_MANUFACTURER := Xiaomi
 

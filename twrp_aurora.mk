@@ -26,9 +26,9 @@ PRODUCT_PACKAGES += aurora_blobs
 PRODUCT_RELEASE_NAME := aurora
 
 ## Device identifier
-PRODUCT_DEVICE := aurora
+PRODUCT_DEVICE := sm8650
 PRODUCT_NAME := twrp_aurora
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := aurora
+PRODUCT_MODEL := sm8650
 PRODUCT_MANUFACTURER := Xiaomi
 

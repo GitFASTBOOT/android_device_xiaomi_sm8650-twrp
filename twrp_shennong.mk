@@ -26,9 +26,9 @@ PRODUCT_PACKAGES += shennong_blobs
 PRODUCT_RELEASE_NAME := shennong
 
 ## Device identifier
-PRODUCT_DEVICE := shennong
+PRODUCT_DEVICE := sm8650
 PRODUCT_NAME := twrp_shennong
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := shennong
+PRODUCT_MODEL := sm8650
 PRODUCT_MANUFACTURER := Xiaomi
 

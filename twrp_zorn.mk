@@ -26,9 +26,9 @@ PRODUCT_PACKAGES += zorn_blobs
 PRODUCT_RELEASE_NAME := zorn
 
 ## Device identifier
-PRODUCT_DEVICE := zorn
+PRODUCT_DEVICE := sm8650
 PRODUCT_NAME := twrp_zorn
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := zorn
+PRODUCT_MODEL := sm8650
 PRODUCT_MANUFACTURER := Xiaomi
 

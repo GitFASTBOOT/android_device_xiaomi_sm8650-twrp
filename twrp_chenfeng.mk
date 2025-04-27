@@ -26,9 +26,9 @@ PRODUCT_PACKAGES += chenfeng_blobs
 PRODUCT_RELEASE_NAME := chenfeng
 
 ## Device identifier
-PRODUCT_DEVICE := chenfeng
+PRODUCT_DEVICE := sm8650
 PRODUCT_NAME := twrp_chenfeng
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := chenfeng
+PRODUCT_MODEL := sm8650
 PRODUCT_MANUFACTURER := Xiaomi
 

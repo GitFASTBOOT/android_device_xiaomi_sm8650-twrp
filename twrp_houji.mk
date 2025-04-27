@@ -26,9 +26,9 @@ PRODUCT_PACKAGES += houji_blobs
 PRODUCT_RELEASE_NAME := houji
 
 ## Device identifier
-PRODUCT_DEVICE := houji
+PRODUCT_DEVICE := sm8650
 PRODUCT_NAME := twrp_houji
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := houji
+PRODUCT_MODEL := sm8650
 PRODUCT_MANUFACTURER := Xiaomi
 
